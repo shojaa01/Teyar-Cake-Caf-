@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color: #161e3f;
+}
 .baner {
   position: relative;
   display: flex;
