@@ -51,7 +51,7 @@ body{
 }
 .text div {
   width: 80%;
-  aspect-ratio: 16.4 / 20.29;
+  aspect-ratio: 16.4 / 15.29;
   background-position: center;
   background-size: cover;
   max-width: 500px;
