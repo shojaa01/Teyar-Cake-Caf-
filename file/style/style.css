@@ -37,10 +37,13 @@ body{
   background-position: center;
   background-size: cover;
   margin: 10px;
+  background-color: #ffc1a6;
+  border-radius: 25px;
+  border: solid 0.2rem rgb(255, 255, 255);
 }
 .img {
   position: absolute;
-  width: 100px;
+  width: 90px;
   max-width: 600px;
   aspect-ratio: 5 / 5;
   background-position: center;
@@ -48,6 +51,7 @@ body{
   margin: 10px;
   left: 10px;
   border-radius: 15px;
+  border: solid 0.2rem rgb(255, 255, 255);
 }
 
 .cardText {
@@ -78,8 +82,9 @@ body{
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 40%;
+  width: 130px;
   /* background-color: aliceblue; */
+  color:black;
 }
 .textPric {
   position: relative;
@@ -88,13 +93,19 @@ body{
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 50%;
+  width: 50px;
   /* background-color: rgb(255, 240, 240); */
+  color:black;
 }
 .textInfo {
   position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   width: 100%;
-  margin: 10px;
+  height: 55px;
   font-size: 0.8rem;
   /* background-color: aliceblue; */
+  color:black;
 }
