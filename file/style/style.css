@@ -12,8 +12,8 @@
   font-weight: bolder;
   font-style: normal;
 }
-body{
-    background-color: #161e3f;
+body {
+  background-color: #161e3f;
 }
 .cuntaner {
   position: relative;
@@ -39,7 +39,8 @@ body{
   margin: 10px;
   background-color: #ffc1a6;
   border-radius: 25px;
-  border: solid 0.2rem rgb(255, 255, 255);
+  border: solid 0.2rem #ffc1a6;
+  box-shadow: inset 0px 0px 5px 10px #161e3f ,0px 0px 10px 0.5px #ffc1a6;
 }
 .img {
   position: absolute;
@@ -67,7 +68,7 @@ body{
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  flex-direction:column;
+  flex-direction: row;
   align-items: center;
   text-align: right;
   justify-content: center;
@@ -84,7 +85,11 @@ body{
   justify-content: center;
   width: 130px;
   /* background-color: aliceblue; */
-  color:black;
+  color: rgb(255, 255, 255);
+  background-color: #161e3f;
+  border-radius: 25px;
+  padding: 2px;
+  border: solid white;
 }
 .textPric {
   position: relative;
@@ -94,8 +99,12 @@ body{
   text-align: center;
   justify-content: center;
   width: 50px;
-  /* background-color: rgb(255, 240, 240); */
-  color:black;
+  color: rgb(255, 255, 255);
+  background-color: #161e3f;
+  border-radius: 25px;
+  padding: 2px;
+  border: solid white;
+  margin-right: 5px;
 }
 .textInfo {
   position: relative;
@@ -107,5 +116,6 @@ body{
   height: 55px;
   font-size: 0.8rem;
   /* background-color: aliceblue; */
-  color:black;
+  color: black;
+  padding: 5px;
 }
