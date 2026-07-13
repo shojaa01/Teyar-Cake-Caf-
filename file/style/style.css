@@ -40,7 +40,7 @@ body {
   background-color: #ffc1a6;
   border-radius: 25px;
   border: solid 0.2rem #ffc1a6;
-  box-shadow: inset 0px 0px 5px 10px #161e3f ,0px 0px 10px 0.5px #ffc1a6;
+  box-shadow: inset 0px 0px 8px 4px #161e3f ,0px 0px 10px 0.5px #ffc1a6;
 }
 .img {
   position: absolute;
@@ -62,7 +62,7 @@ body {
   align-items: center;
   text-align: right;
   justify-content: center;
-  width: 60%;
+  width: 70%;
 }
 .boxText {
   position: relative;
@@ -91,7 +91,7 @@ body {
   padding:5px ;
   /* border: solid white; */
   box-shadow: inset 0px 0px 5px 1px #ffc1a6;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .textPric {
   position: relative;
